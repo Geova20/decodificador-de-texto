@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/responsive.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/logo.png" class="logoAlura" alt="Logo da Alura">
+    </header>
+    <main>
+        <section class="entrada">
+            <div class="entrada__conteiner">
+                <textarea class="entrada__conteiner__texto" cols="20" id="input-texto" placeholder="Digite seu texto"></textarea>
+            </div>
+
+            <div class="entrada__conteudo">
+                <div class="entrada__conteudo__informacao" >
+                    <img class="entrada__conteudo__informacao__icone"src="assets/images/alerta.png" alt="Ícone de informação">
+                    <p class="entrada__conteudo__informacao__aviso">Apenas letras minúsculas e sem acento.</p>
+                </div>
+    
+                <div class="entrada__botoes">
+                    <button onclick="criptografar()" class="entrada__botoes__btn-criptografar" id="criptografa">Criptografar</button>
+                    <button onclick="descriptografar()" class="entrada__botoes__btn-descriptografar" id="descriptografa">Descriptografar</button>
+                </div> 
+            </div>
+        </section>
+        
+    </main>
+
+    <aside class="conteudo-lateral">
+        <div class="conteudo-lateral__conteiner" id="saida-conteudo">
+            <div class="conteudo-lateral__conteiner__aviso" id="texto-mensagem">
+                <img class="conteudo-lateral__conteiner__aviso__img" src="assets/images/boneco.png" alt="Boneco">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que você deseja criptografar ou descriptografar</span>
+            </div>
+            <div class="conteudo-lateral__conteiner__saida-texto" row id="saida-texto">
+            </div>
+            <button class="conteudo-lateral__conteiner__btn-copiar" id="copia" onclick="copiar()">Copiar</button>
+        </div>
+    </aside>
+    
+    <script defer src="script.js"></script>
+</body>
+
+</html>

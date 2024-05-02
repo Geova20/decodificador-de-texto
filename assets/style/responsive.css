@@ -1,0 +1,215 @@
+@media screen and (max-width: 1200px) {
+    *{
+        font-size: 0.8rem;
+    }
+
+    body{
+        flex-flow: column nowrap;
+    }
+    
+    header{
+        padding: 7% 0 0 3%;
+    }
+
+    main{
+        width: 100%;
+        flex-flow: column nowrap;
+        height: 100%;
+        min-height:70%;
+        padding: 0 0; 
+        margin-bottom: auto;
+    }
+
+    .entrada{
+        width: 100%;
+        height: 100%;
+        min-height: 80%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    .entrada__conteiner___texto{
+        width: 90%;
+        height: 80%;
+        padding: 0;
+        border-width: 0px;
+        margin: 5% 0 3% 0%;
+        font-size: 1.2rem;
+    }
+
+    .entrada__conteudo{
+        height: 15%;
+        max-height: 5rem;
+        margin: auto;
+    }
+
+    .entrada__conteudo__informacao{
+        margin-left: 2.5%;
+    }
+
+    .entrada__botoes {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .entrada__botoes__btn-criptografar {
+        width: 45%;
+        padding: 1rem;
+        height: 100%;
+        margin: auto;
+    }
+
+    .entrada__botoes__btn-descriptografar {
+        width: 45%;
+        padding: 1rem;
+        height: 100%;
+        margin: auto;
+    }
+
+    .conteudo-lateral{
+        width: 100%;
+        height: auto;
+        min-height: 18%;
+    }
+    
+
+    .conteudo-lateral__conteiner{
+        margin-top: 2.5rem;
+        height: auto;
+        width: 95%; 
+        min-height: 70%;
+        padding: auto;
+    }
+
+    .conteudo-lateral__conteiner__aviso{
+      row-gap: 1rem;
+    }
+    
+
+    .conteudo-lateral__conteiner__aviso__img {
+       display: none;
+    }
+    
+    .conteudo-lateral__conteiner__aviso h2{
+        font-size: 1.2rem;
+    }
+
+    .conteudo-lateral__conteiner__saida {
+        height: auto;
+        border-radius: 24px;
+        padding: 1rem 0 1rem 0;
+    }
+
+    .conteudo-lateral__conteiner__saida-texto{
+        height: auto;
+        margin: auto;
+        padding: 0.7rem;
+        font-size: 1.2rem;
+    }
+
+    .conteudo-lateral__conteiner__btn-copiar {
+        padding: 1rem;
+        height: 4rem;
+        width: 95%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    
+    header{
+        padding: 3% 0 0.5% 4%;
+    }
+
+    main{
+        min-height: 50%; 
+        padding: 0; 
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+
+    .entrada{
+        height: 100%;
+        min-height: 40%;
+    }
+
+    .entrada__conteiner{
+        height: 55%;
+    }
+
+    .entrada__conteiner__texto{
+        width: 100%;
+        height: 80%;
+        padding: 10px;
+        margin: auto;
+        font-size: 1rem;
+    }
+    .entrada__conteudo{
+        min-height: 40%;
+        margin: 0;
+    }
+
+    .entrada__conteudo__informacao{
+        height: 10%;
+        margin-left: 4%; 
+    }
+
+    .entrada__botoes{
+        flex-direction: column;
+        height: auto;
+        row-gap:1rem;
+        min-height: 60%;
+    }
+
+    .entrada__botoes__btn-criptografar {
+        height: auto;
+        max-height: 7rem;
+        width: 95%; 
+        padding: auto;
+    }
+
+    .entrada__botoes__btn-descriptografar {
+        height: auto;
+        max-height: 7rem;
+        width: 95%;
+        padding: auto;
+    }
+
+    .conteudo-lateral{
+        padding: 1rem;
+        height: 30%;
+        min-height: 25%;
+    }
+
+    .conteudo-lateral__conteiner{
+        margin-top: auto;
+        width: 95%; 
+        height: auto;
+        min-height: 75%;
+        padding: auto;
+    }
+
+    .conteudo-lateral__conteiner__aviso h2{
+        font-size: 0.8rem;
+    }
+
+    .conteudo-lateral__conteiner__saida-texto{
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 90%;
+        height: auto;
+        resize: none;
+    }
+
+    .conteudo-lateral__conteiner__btn-copiar {
+        padding: 1rem;
+        height: 3rem;
+        width: 95%;
+        margin: auto;
+    }
+
+
+}

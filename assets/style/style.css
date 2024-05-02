@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    background: #E5E5E5;  
+    font-family: "Inter", sans-serif;
+    font-weight: 400;  
+    font-size: 1rem;   
+    line-height: 150%; 
+    box-sizing: border-box; 
+    margin: 0;  
+    padding: 0;  
+}
+
+html{
+    height: 100vh;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+header{
+    padding: 3% 0 0 4% ; 
+}
+
+main{
+    display: flex;
+    width: 70%;
+    height: 100%; 
+}
+
+.entrada{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.entrada__conteiner{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 75%;
+}
+
+.entrada__conteiner__texto{
+    color: #0A3871;
+    display: block;
+    height: 50%;
+    width: 80%;
+    padding: 1rem; 
+    margin-top: 15%;
+    background: none;
+    border-width: 0px;
+    outline: 0; 
+    font-size: 1.5rem;
+    font-weight: 500;
+    overflow: hidden;
+    word-wrap: break-word;
+    resize: none;
+}
+
+.entrada__conteiner__texto::placeholder {
+    color: #0A3871;
+}
+
+.entrada__conteudo {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 0.7rem;
+}
+
+.entrada__conteudo__informacao{
+    display: flex;
+    margin-left: 9%;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.entrada__conteudo__informacao__icone{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+}
+
+.entrada__botoes {
+    display: flex;
+    min-height: 85%;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.entrada__botoes__btn-criptografar {
+    display: block;
+    color: #FFFFFF;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    padding: auto;
+    border-radius: 16px;
+    width: 40%;
+    cursor: pointer;
+}
+.entrada__botoes__btn-criptografar:hover {
+    filter: brightness(120%);
+}
+
+.entrada__botoes__btn-descriptografar {
+    display: block;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    padding: auto;
+    border-radius: 16px;
+    width: 40%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.entrada__botoes__btn-descriptografar:hover {
+    filter: brightness(120%);
+}
+
+.conteudo-lateral{
+    display: flex;
+    min-width: 30%;
+    width: 30%;
+}
+
+.conteudo-lateral__conteiner{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 24px;
+    width: 90%;
+    max-width: 100%;
+    height: 90%;
+    padding: 1rem;
+    justify-content: center;
+    row-gap: 1rem;
+    margin: auto;
+}
+
+.conteudo-lateral__conteiner__aviso{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    row-gap: 1rem;
+}
+
+.conteudo-lateral__conteiner__aviso__img {
+    display: block;
+    width: 85%;
+    background-color: #FFFFFF;
+    margin-left: 7%;
+}
+
+.conteudo-lateral__conteiner__aviso h2{
+    display: block;
+    background-color: #FFFFFF;
+    margin: 0 1.5rem 0 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.conteudo-lateral__conteiner__aviso span{
+    display: block;
+    background-color: #FFFFFF;
+    margin: 0 1.5rem 0 1.5rem;
+    text-align: center;
+}
+
+.conteudo-lateral__conteiner__saida-texto{
+    display: none;
+    width: 100%;
+    height: 80%;
+    background: white; 
+    font-size: 1.5rem;
+    font-weight: 500;
+    outline: 0;
+    padding: 1rem;
+    overflow: hidden;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+    resize: none;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.conteudo-lateral__conteiner__btn-copiar {
+    display: none;
+    color:#0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 16px;
+    width: 90%;
+    height: 10%;
+    padding: auto;
+    cursor: pointer;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.conteudo-lateral__conteiner__btn-copiar:hover {
+    filter: brightness(120%);
+}
